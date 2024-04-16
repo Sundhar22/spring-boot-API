@@ -1,4 +1,4 @@
-package com.example.springbootwithdevtiro.domain;
+package com.example.springbootwithdevtiro.presentation.DTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,9 +9,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-
-public class Books {
+public class BookDTO {
     private    String isbn;
     private    String tittle;
-    private    Long authorId;
+    private AuthorDTO author;
 }

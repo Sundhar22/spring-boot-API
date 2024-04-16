@@ -1,17 +1,16 @@
-package com.example.springbootwithdevtiro.domain;
+package com.example.springbootwithdevtiro.presentation.DTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Builder
 @Data
-@AllArgsConstructor
+@Builder
 @NoArgsConstructor
-
-public class Author {
-    private long id;
+@AllArgsConstructor
+public class AuthorDTO {
+    private Long id;
     private String name;
-    private int age;
+    private Integer age;
 }
